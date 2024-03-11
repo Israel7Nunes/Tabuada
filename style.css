@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgs/houses-7477950_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: absolute;
+    left: 37%;
+    top: 5%;
+    background-color: #3D5476;
+    border-radius: 15px;
+}
+
+header h1{
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+}
+
+#container{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+input{
+    background-color: #D9C8AE;
+}
+
+#numInput{
+    width: 15vw;
+    height: 7vh;
+    font-size: 1.2em    
+}
+
+
+#container button{
+    width: 8vw;
+    height: 8vh;
+    font-size: 1.2em;
+    border-radius: 8px;
+    background-color: #D98C4A;
+}
+
+button:hover{
+    width: 10%;
+    height: 10%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#tabuada{
+    background-color: #9FBFBF;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 24vw;
+    height: 46vh;
+}
+
+#tabuada table{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    row-gap: 20px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    background-color: #BF6565;
+    font-size: 1.5em;
+    padding-right: 64.4vw;
+}
+
+.img1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 20%;
+}
